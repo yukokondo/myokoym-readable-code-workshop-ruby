@@ -8,22 +8,34 @@ Ruby
 
 ## 使い方
 
-Rubyインタープリターでrecipe.rbを実行してください。
+### データファイルの書き方
+
+一行目にレシピ情報を書いたファイルを用意してください。
+
+データファイルの例:
+
+```
+オムライス
+```
+
+### 実行方法
+
+引数にデータファイルを指定して、Rubyインタープリターでrecipe.rbを実行してください。
 
 以下はコマンドライン（bashやコマンドプロンプトなど）で実行する例です。
 
 ```bash
-$ ruby recipe.rb
+$ ruby recipe.rb recipe-data.txt
 ```
 
 UnixやLinuxなどの環境では、以下のように実行することもできます。
 
 ```bash
-$ ./recipe.rb
+$ ./recipe.rb recipe-data.txt
 ```
 
 もし環境変数のPATHが通っていない場合、絶対パスで指定してください。
 
 ```bash
-$ /path/to/ruby recipe.rb
+$ /path/to/ruby recipe.rb recipe-data.txt
 ```
