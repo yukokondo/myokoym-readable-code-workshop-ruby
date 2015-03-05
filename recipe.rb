@@ -13,6 +13,6 @@ end
 data_path = ARGV[0]
 recipes = read_lines(data_path)
 
-recipes.each do |recipe|
-  puts recipe
+recipes.each_with_index do |recipe, i|
+  puts "#{i + 1}: #{recipe}"
 end
