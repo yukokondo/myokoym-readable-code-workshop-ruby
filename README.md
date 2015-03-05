@@ -15,3 +15,9 @@ Rubyインタープリターでrecipe.rbを実行してください。
 ```bash
 $ ruby recipe.rb
 ```
+
+UnixやLinuxなどの環境では、以下のように実行することもできます。
+
+```bash
+$ ./recipe.rb
+```
