@@ -21,3 +21,9 @@ UnixやLinuxなどの環境では、以下のように実行することもで�
 ```bash
 $ ./recipe.rb
 ```
+
+もし環境変数のPATHが通っていない場合、絶対パスで指定してください。
+
+```bash
+$ /path/to/ruby recipe.rb
+```
