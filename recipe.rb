@@ -19,8 +19,14 @@ def read_lines(data_path)
 end
 
 data_path = ARGV[0]
+get_id = ARGV[1].to_i
+
 recipes = read_lines(data_path)
 
-recipes.each_with_index do |recipe, i|
-  puts "#{recipe.id}: #{recipe.name}"
+if ARGV[1] == nil then
+  recipes.each_with_index do |recipe, i|
+    puts "#{recipe.id}: #{recipe.name}"
+  end
+elsif
+  puts "#{get_id} : #{recipes[get_id].name}"
 end
