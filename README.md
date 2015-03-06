@@ -27,17 +27,17 @@ Ruby
 以下はコマンドライン（bashやコマンドプロンプトなど）で実行する例です。
 
 ```bash
-$ ruby recipe.rb recipe-data.txt
+$ ruby recipe.rb recipe-data.txt [指定したいID]
 ```
 
 UnixやLinuxなどの環境では、以下のように実行することもできます。
 
 ```bash
-$ ./recipe.rb recipe-data.txt
+$ ./recipe.rb recipe-data.txt [指定したいID]
 ```
 
 もし環境変数のPATHが通っていない場合、絶対パスで指定してください。
 
 ```bash
-$ /path/to/ruby recipe.rb recipe-data.txt
+$ /path/to/ruby recipe.rb recipe-data.txt [指定したいID]
 ```
